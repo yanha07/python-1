@@ -1,0 +1,7 @@
+'''Created by Yanha Loharwad
+Python program to print square of first five positive integers.'''
+squares = [i**2 for i in range(1, 6)]
+
+# Printing the squares
+print("Squares of the first five positive integers:")
+print(squares)

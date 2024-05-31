@@ -1,0 +1,16 @@
+'''Created by Yanha Loharwad
+Python program to create an unchanged list of 10 numbers lying between 0 and 255.'''
+# Create a tuple of 10 numbers between 0 and 255
+number_tuple = tuple(range(10, 101, 10))  # numbers 10 to 100 in steps of 10
+
+# Display the tuple
+print("Original Tuple:", number_tuple)
+
+# Attempt to change an element (will raise an error)
+try:
+    number_tuple[0] = 99
+except TypeError as e:
+    print(f"Error: {e}")
+
+# Display the tuple after the attempted change
+print("Tuple after attempted change:", number_tuple)

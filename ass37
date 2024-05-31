@@ -1,0 +1,16 @@
+'''Created by Yanha Loharwad
+Python program to check if a number is in the range'''
+# Take input from the user
+num = input("Enter a number: ")
+
+# Check if the input is a valid integer
+if num.isdigit():
+    num = int(num)
+    # Check if the number is in the range (1000, 10000)
+    if 1000 < num < 10000:
+        print(f"{num} is in the range (1000, 10000)")
+    else:
+        print(f"{num} is not in the range (1000, 10000)")
+else:
+    print("Invalid input. Please enter a valid number.")
+

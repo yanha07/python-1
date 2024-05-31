@@ -1,0 +1,22 @@
+'''Created by Yanha Loharwad
+Python program to do operations on a string'''
+# Given string
+Z = 'Indiaismycountry'
+
+# Print first four characters of the string
+print("First four characters:", Z[:4])
+
+# Print last four characters of the string
+print("Last four characters:", Z[-4:])
+
+# Print the part of string 'ismy' from the above string
+ismy = Z[5:9]
+print("Part of string 'ismy':", ismy)
+
+# Print twice the above string
+twice_Z = Z * 2
+print("Twice the string:", twice_Z)
+
+# Print reverse of the string
+reverse_Z = Z[::-1]
+print("Reverse of the string:", reverse_Z)

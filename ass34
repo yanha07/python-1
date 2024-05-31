@@ -1,0 +1,10 @@
+'''Created by Yanha Loharwad
+Python program to find the range of a number.'''
+# Input a number from the user
+number = int(input("Enter a number: "))
+
+# Check if the number is in the range (0, 255)
+if 0 < number < 255:
+    print("number is in the range (0, 255).")
+else:
+    print("number is not in the range (0, 255).")
